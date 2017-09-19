@@ -9,18 +9,18 @@ Last update : 2016-10-19
 
 ============================================================== */
 
-$color_1: #6f6f6f;
-$color_2: #fff;
-$color_3: #9f9f9f;
-$color_4: #eee;
-$font_family_1: 'FontAwesome';
-$background_color_1: #fff;
-$background_color_2: transparent;
-$background_color_3: #f5f5f5;
-$background_color_4: #333;
-$background_color_5: #cfcfcf;
-$background_color_6: rgba(255,255,255,0.3);
-$background_color_7: rgba(0,0,0,0.3);
+$bn_color_1: #6f6f6f;
+$bn_color_2: #fff;
+$bn_color_3: #9f9f9f;
+$bn_color_4: #eee;
+$bn_font_family_1: 'FontAwesome';
+$bn_background_color_1: #fff;
+$bn_background_color_2: transparent;
+$bn_background_color_3: #f5f5f5;
+$bn_background_color_4: #333;
+$bn_background_color_5: #cfcfcf;
+$bn_background_color_6: rgba(255,255,255,0.3);
+$bn_background_color_7: rgba(0,0,0,0.3);
 
 
 nav.bootsnav {
@@ -53,15 +53,15 @@ nav.navbar.bootsnav {
 	-webkit-border-radius: 0px;
 	-o-border-radius: 0px;
 	border-radius: 0px;
-	background-color: $background_color_1;
+	background-color: $bn_background_color_1;
 	border: none;
 	border-bottom: solid 1px #e0e0e0;
 	z-index: 9;
 	ul.nav {
 		>li {
 			>a {
-				color: $color_1;
-				background-color: $background_color_2;
+				color: $bn_color_1;
+				background-color: $bn_background_color_2;
 				outline: none;
 				margin-bottom: -2px;
 			}
@@ -69,22 +69,22 @@ nav.navbar.bootsnav {
 		li.megamenu-fw {
 			>a {
 				&:hover {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
 				&:focus {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
 			}
 		}
 		li.active {
 			>a {
 				&:hover {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
 				&:focus {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
-				background-color: $background_color_2;
+				background-color: $bn_background_color_2;
 			}
 		}
 		.dropdown-menu {
@@ -102,7 +102,7 @@ nav.navbar.bootsnav {
 		}
 	}
 	.navbar-toggle {
-		background-color: $background_color_1;
+		background-color: $bn_background_color_1;
 		border: none;
 		padding: 0;
 		font-size: 18px;
@@ -131,8 +131,8 @@ nav.navbar.bootsnav {
 					-webkit-border-radius: 50%;
 					-o-border-radius: 50%;
 					border-radius: 50%;
-					background-color: $background_color_5;
-					color: $color_2;
+					background-color: $bn_background_color_5;
+					color: $bn_color_2;
 				}
 			}
 		}
@@ -144,7 +144,7 @@ ul.menu-col {
 	list-style: none;
 	li {
 		a {
-			color: $color_1;
+			color: $bn_color_1;
 			&:hover {
 				text-decoration: none;
 			}
@@ -200,7 +200,7 @@ nav.bootsnav.navbar-full {
 		.wrap-full-menu {
 			display: table-cell;
 			vertical-align: middle;
-			background-color: $background_color_1;
+			background-color: $bn_background_color_1;
 			overflow: auto;
 		}
 		ul.nav {
@@ -209,12 +209,12 @@ nav.bootsnav.navbar-full {
 			overflow: auto;
 			a {
 				&:hover {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
 				&:focus {
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 				}
-				background-color: $background_color_2;
+				background-color: $bn_background_color_2;
 			}
 			>li {
 				float: none;
@@ -258,7 +258,7 @@ li.close-full-menu {
 			float: left;
 			display: block;
 			>a {
-				color: $color_1;
+				color: $bn_color_1;
 				display: block;
 				padding: 28px 15px;
 				position: relative;
@@ -327,7 +327,7 @@ ul.cart-list {
 		}
 	}
 	>li.total {
-		background-color: $background_color_3;
+		background-color: $bn_background_color_3;
 		padding-bottom: 15px !important;
 		>.btn {
 			display: inline-block;
@@ -339,24 +339,24 @@ ul.cart-list {
 	}
 }
 .top-search {
-	background-color: $background_color_4;
+	background-color: $bn_background_color_4;
 	padding: 10px 0;
 	display: none;
 	input.form-control {
-		background-color: $background_color_2;
+		background-color: $bn_background_color_2;
 		border: none;
 		-moz-box-shadow: 0px 0px 0px;
 		-webkit-box-shadow: 0px 0px 0px;
 		-o-box-shadow: 0px 0px 0px;
 		box-shadow: 0px 0px 0px;
-		color: $color_2;
+		color: $bn_color_2;
 		height: 40px;
 		padding: 0 15px;
 	}
 	.input-group-addon {
-		background-color: $background_color_2;
+		background-color: $bn_background_color_2;
 		border: none;
-		color: $color_2;
+		color: $bn_color_2;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -388,7 +388,7 @@ body.on-side {
 	padding: 25px 30px;
 	height: 100%;
 	display: block;
-	background-color: $background_color_4;
+	background-color: $bn_background_color_4;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -397,7 +397,7 @@ body.on-side {
 	z-index: 9;
 	.close-side {
 		float: right;
-		color: $color_2;
+		color: $bn_color_2;
 		position: relative;
 		z-index: 2;
 		font-size: 16px;
@@ -407,7 +407,7 @@ body.on-side {
 		z-index: 1;
 		margin-bottom: 25px;
 		.title {
-			color: $color_2;
+			color: $bn_color_2;
 			margin-bottom: 15px;
 		}
 		ul.link {
@@ -416,14 +416,14 @@ body.on-side {
 			list-style: none;
 			li {
 				a {
-					color: $color_3;
+					color: $bn_color_3;
 					letter-spacing: 1px;
 					&:focus {
-						color: $color_2;
+						color: $bn_color_2;
 						text-decoration: none;
 					}
 					&:hover {
-						color: $color_2;
+						color: $bn_color_2;
 						text-decoration: none;
 					}
 				}
@@ -496,7 +496,7 @@ nav.navbar.bootsnav.no-background {
 			>li.dropdown {
 				>a.dropdown-toggle {
 					&:after {
-						font-family: $font_family_1;
+						font-family: $bn_font_family_1;
 						content: "\f0d7";
 						margin-left: 5px;
 						margin-top: 2px;
@@ -529,14 +529,14 @@ nav.navbar.bootsnav.no-background {
 				>li {
 					a {
 						&:hover {
-							background-color: $background_color_2;
-							background-color: $background_color_2;
+							background-color: $bn_background_color_2;
+							background-color: $bn_background_color_2;
 						}
 					}
 					>a {
 						padding: 10px 15px;
 						border-bottom: solid 1px #eee;
-						color: $color_1;
+						color: $bn_color_1;
 					}
 					&:last-child {
 						>a {
@@ -547,7 +547,7 @@ nav.navbar.bootsnav.no-background {
 				li.dropdown {
 					>a.dropdown-toggle {
 						&:before {
-							font-family: $font_family_1;
+							font-family: $bn_font_family_1;
 							float: right;
 							content: "\f105";
 							margin-top: 0;
@@ -570,7 +570,7 @@ nav.navbar.bootsnav.no-background {
 					li.dropdown {
 						>a.dropdown-toggle {
 							&:before {
-								font-family: $font_family_1;
+								font-family: $bn_font_family_1;
 								float: left;
 								content: "\f104";
 								margin-top: 0;
@@ -608,7 +608,7 @@ nav.navbar.bootsnav.no-background {
 							width: 100%;
 							margin-bottom: 0;
 							border-bottom: none;
-							color: $color_1;
+							color: $bn_color_1;
 						}
 					}
 				}
@@ -630,7 +630,7 @@ nav.navbar.bootsnav.no-background {
 		}
 	}
 	nav.navbar.bootsnav.no-background {
-		background-color: $background_color_2;
+		background-color: $bn_background_color_2;
 		border: none;
 	}
 	nav.navbar.bootsnav.navbar-transparent {
@@ -640,14 +640,14 @@ nav.navbar.bootsnav.no-background {
 		}
 	}
 	nav.navbar.bootsnav.navbar-transparent.white {
-		background-color: $background_color_6;
+		background-color: $bn_background_color_6;
 		border-bottom: solid 1px #bbb;
 		.attr-nav {
 			border-left: solid 1px #bbb;
 			>ul {
 				>li {
 					>a {
-						color: $color_2;
+						color: $bn_color_2;
 					}
 				}
 			}
@@ -655,27 +655,27 @@ nav.navbar.bootsnav.no-background {
 		ul.nav {
 			>li {
 				>a {
-					color: $color_2;
+					color: $bn_color_2;
 				}
 			}
 		}
 	}
 	nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark {
-		background-color: $background_color_7;
+		background-color: $bn_background_color_7;
 		border-bottom: solid 1px #555;
 		.attr-nav {
 			border-left: solid 1px #555;
 		}
 	}
 	nav.navbar.bootsnav.navbar-transparent.dark {
-		background-color: $background_color_7;
+		background-color: $bn_background_color_7;
 		border-bottom: solid 1px #555;
 		.attr-nav {
 			border-left: solid 1px #555;
 			>ul {
 				>li {
 					>a {
-						color: $color_4;
+						color: $bn_color_4;
 					}
 				}
 			}
@@ -683,7 +683,7 @@ nav.navbar.bootsnav.no-background {
 		ul.nav {
 			>li {
 				>a {
-					color: $color_4;
+					color: $bn_color_4;
 				}
 			}
 		}
@@ -693,7 +693,7 @@ nav.navbar.bootsnav.no-background {
 			>ul {
 				>li {
 					>a {
-						color: $color_2;
+						color: $bn_color_2;
 					}
 				}
 			}
@@ -701,7 +701,7 @@ nav.navbar.bootsnav.no-background {
 		ul.nav {
 			>li {
 				>a {
-					color: $color_2;
+					color: $bn_color_2;
 				}
 			}
 		}
@@ -922,7 +922,7 @@ nav.navbar.bootsnav.no-background {
 					left: 0 !important;
 					width: 100% !important;
 					height: auto !important;
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 					border: none !important;
 					padding: 0;
 					-moz-box-shadow: 0px 0px 0px;
@@ -935,7 +935,7 @@ nav.navbar.bootsnav.no-background {
 					li {
 						a {
 							padding: 5px 15px;
-							color: $color_1;
+							color: $bn_color_1;
 							border: none;
 						}
 					}
@@ -946,7 +946,7 @@ nav.navbar.bootsnav.no-background {
 					li.dropdown {
 						>a {
 							&:before {
-								font-family: $font_family_1;
+								font-family: $bn_font_family_1;
 								content: "\f105";
 								float: right;
 							}
@@ -992,9 +992,9 @@ nav.navbar.bootsnav.no-background {
 						letter-spacing: 0px;
 						margin-bottom: 0;
 						cursor: pointer;
-						color: $color_1;
+						color: $bn_color_1;
 						&:before {
-							font-family: $font_family_1;
+							font-family: $bn_font_family_1;
 							content: "\f105";
 							float: right;
 						}
@@ -1076,7 +1076,7 @@ nav.navbar.bootsnav.no-background {
 		li.dropdown {
 			a.dropdown-toggle {
 				&:before {
-					font-family: $font_family_1;
+					font-family: $bn_font_family_1;
 					content: "\f105";
 					float: right;
 					font-size: 16px;
@@ -1122,7 +1122,7 @@ nav.navbar.bootsnav.no-background {
 				ul.dropdown-menu {
 					width: 100%;
 					position: relative !important;
-					background-color: $background_color_2;
+					background-color: $bn_background_color_2;
 					float: none;
 					border: none;
 					padding: 0 0 0 15px !important;
@@ -1141,7 +1141,7 @@ nav.navbar.bootsnav.no-background {
 							width: 100%;
 							border-bottom: solid 1px #e0e0e0;
 							padding: 10px 0;
-							color: $color_1;
+							color: $bn_color_1;
 						}
 					}
 				}
@@ -1150,10 +1150,10 @@ nav.navbar.bootsnav.no-background {
 				li {
 					a {
 						&:hover {
-							background-color: $background_color_2;
+							background-color: $bn_background_color_2;
 						}
 						&:focus {
-							background-color: $background_color_2;
+							background-color: $bn_background_color_2;
 						}
 					}
 				}
@@ -1185,9 +1185,9 @@ nav.navbar.bootsnav.no-background {
 						margin-bottom: 0;
 						cursor: pointer;
 						border-bottom: solid 1px #e0e0e0;
-						color: $color_1;
+						color: $bn_color_1;
 						&:before {
-							font-family: $font_family_1;
+							font-family: $bn_font_family_1;
 							content: "\f105";
 							float: right;
 							font-size: 16px;
