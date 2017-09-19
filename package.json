@@ -1,0 +1,30 @@
+{
+  "name": "bootsnav",
+  "version": "2.0.0",
+  "description": "Bootsnav - Multi Purpose Header",
+  "main": "js/bootsnav.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass css/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgjamkhedkar/bootsnav.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "navigation"
+  ],
+  "author": "adamnurdin01 <adamnurdin01@gmail.com>",
+  "contributes": [
+    {
+      "name": "Rohan Jamkhedkar",
+      "email": "rgjamkhedkar@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgjamkhedkar/bootsnav/issues"
+  },
+  "homepage": "https://github.com/rgjamkhedkar/bootsnav#readme"
+}
